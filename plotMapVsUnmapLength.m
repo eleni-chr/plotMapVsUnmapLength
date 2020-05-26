@@ -37,7 +37,7 @@ end
 
 %% CREATE PLOT
 
-%Supblot 1.
+%Subplot 1.
 fig=figure('Position', get(0, 'Screensize')); %make figure full-screen.
 ax(1)=subplot(2,3,1);
 dataMapped=cell2mat(mapped{1});
@@ -60,7 +60,7 @@ h2.FaceColor=[.85, .325, .098];
 h2.EdgeColor=[.85, .325, .098];
 hold off;
 
-%Supblot 2.
+%Subplot 2.
 ax(2)=subplot(2,3,2);
 dataMapped=cell2mat(mapped{2});
 dataUnmapped=cell2mat(unmapped{2});
@@ -82,7 +82,7 @@ h2.FaceColor=[.85, .325, .098];
 h2.EdgeColor=[.85, .325, .098];
 hold off;
 
-%Supblot 3.
+%Subplot 3.
 ax(3)=subplot(2,3,3);
 dataMapped=cell2mat(mapped{3});
 dataUnmapped=cell2mat(unmapped{3});
@@ -105,7 +105,7 @@ h2.EdgeColor=[.85, .325, .098];
 legend('Mapped','Unmapped','FontSize',12);
 hold off;
 
-%Supblot 4.
+%Subplot 4.
 ax(4)=subplot(2,3,4);
 dataMapped=cell2mat(mapped{4});
 dataUnmapped=cell2mat(unmapped{4});
@@ -127,7 +127,7 @@ h2.FaceColor=[.85, .325, .098];
 h2.EdgeColor=[.85, .325, .098];
 hold off;
 
-%Supblot 5.
+%Subplot 5.
 ax(5)=subplot(2,3,5);
 dataMapped=cell2mat(mapped{5});
 dataUnmapped=cell2mat(unmapped{5});
@@ -149,7 +149,7 @@ h2.FaceColor=[.85, .325, .098];
 h2.EdgeColor=[.85, .325, .098];
 hold off;
 
-%Supblot 6.
+%Subplot 6.
 ax(6)=subplot(2,3,6);
 dataMapped=cell2mat(mapped{6});
 dataUnmapped=cell2mat(unmapped{6});
